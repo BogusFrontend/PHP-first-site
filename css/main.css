@@ -1,0 +1,41 @@
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.top-header {
+    background-image: url("../img/main.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+header {
+    margin-bottom: 15px;
+}
+
+section {
+    margin-bottom: 15px;
+}
+
+.main-inner {
+    border: 1px solid lightslategrey;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.btn {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 140px;
+}
+
+.inner-text p {
+    font-size: 14px;
+}
+
