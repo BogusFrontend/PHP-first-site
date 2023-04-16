@@ -38,9 +38,7 @@ $images = array(
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="top-header">
-
-                </div>
+                <div class="top-header"></div>
             </div>
         </div>
     </div>
@@ -49,13 +47,13 @@ $images = array(
     <div class="container">
         <div class="row">
             <?php
-            foreach ($titles as $name) { ?>
+            foreach ($titles as $index => $name) { ?>
                 <div class="col-md-6">
                     <div class="main-inner">
                         <div class="row">
-                            <div class="col-7">
+                            <div class="col-md-4">
                                 <div class="image">
-                                    <img src="./img/posters/atomic_heart.jpeg" alt="atomic heart poster">
+                                    <img src="./img/posters/<?php  print_r($images[$index]) ?>" alt="game poster">
                                 </div>
                             </div>
                             <div class="col-5">
